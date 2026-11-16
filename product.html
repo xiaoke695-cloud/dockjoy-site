@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="google" content="notranslate" />
+<title>产品功能｜候选审核、评分、起草、发送 · DockJoy</title>
+<meta name="description" content="从待审核区到发送台账：候选先审核再入库，规则评分写清理由，按公司背景起草，人工批准后才发送，发送失败会明确报错。" />
+<link rel="stylesheet" href="assets/css/site.css?v=20261116" />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+<meta name="theme-color" content="#151515" />
+<link rel="canonical" href="./product.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="DockJoy" />
+<meta property="og:title" content="产品功能｜候选审核、评分、起草、发送 · DockJoy" />
+<meta property="og:description" content="从待审核区到发送台账：候选先审核再入库，规则评分写清理由，按公司背景起草，人工批准后才发送，发送失败会明确报错。" />
+<meta property="og:image" content="https://xiaoke695-cloud.github.io/dockjoy-site/assets/img/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="DockJoy · 先审核，再发送。" />
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="产品功能｜候选审核、评分、起草、发送 · DockJoy" />
+<meta name="twitter:description" content="从待审核区到发送台账：候选先审核再入库，规则评分写清理由，按公司背景起草，人工批准后才发送，发送失败会明确报错。" />
+<meta name="twitter:image" content="https://xiaoke695-cloud.github.io/dockjoy-site/assets/img/og.png" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="mark">D</span>DockJoy</a>
+    <nav class="nav-links" id="navLinks" aria-label="主导航">
+      <a href="product.html" class="active">产品</a>
+      <a href="solutions.html">解决方案</a>
+      <a href="pricing.html">定价</a>
+      <a href="cases.html">试点记录</a>
+      <a href="about.html">关于</a>
+    </nav>
+    <span class="nav-spacer"></span>
+    <div class="nav-actions">
+      <a class="btn btn-line btn-sm" href="https://dockjoy-crm-mu.vercel.app/sign-in">登录</a>
+      <a class="btn btn-solid btn-sm" href="about.html#trial">免费试用</a>
+      <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false" id="navToggle">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="crumb"><a href="index.html">首页</a> / 产品</div>
+    <h1>一条可控的获客流水线</h1>
+    <p>从候选到发送，每个环节都能停下来看清楚。没有黑盒，也没有“发出去再说”。</p>
+  </div>
+</section>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="feature-grid">
+        <div class="feature">
+          <span class="tag">入库前</span>
+          <h3>待审核区</h3>
+          <p>采集或导入的候选先进 <code>draft_companies</code>，人工勾选后才进入正式企业表；同名企业按 BR-02 合并，不重复建。</p>
+        </div>
+        <div class="feature">
+          <span class="tag">评分</span>
+          <h3>分数 + 理由</h3>
+          <p>按行业、规模、地区等字段打分，并写清楚为什么给这个分。分数是规则算的，不假装是 AI 判断。</p>
+        </div>
+        <div class="feature">
+          <span class="tag">起草</span>
+          <h3>按公司背景写草稿</h3>
+          <p>每条草稿对应一家公司和一位联系人，带上行业与地区信息；不是一封模板群发所有人。</p>
+        </div>
+        <div class="feature">
+          <span class="tag">审核</span>
+          <h3>批准、跳过、编辑</h3>
+          <p>草稿必须有人点过“批准”才进发送队列；不合适的人直接跳过；批准前可以改文案。</p>
+        </div>
+        <div class="feature">
+          <span class="tag">发送</span>
+          <h3>Gmail SMTP / Resend</h3>
+          <p>凭据配置在服务端环境变量里，不放在浏览器；发送失败会明确报错，不伪造“已发送”。</p>
+        </div>
+        <div class="feature">
+          <span class="tag">台账</span>
+          <h3>发完留痕</h3>
+          <p>谁批的、什么时候发的、发给了谁，都有记录；企业归档是软删除，联系人不会被物理删除。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+    <div class="container">
+      <h2>怎么用：四个动作</h2>
+      <p style="margin-bottom:26px">不需要培训一天，按顺序点就行。</p>
+      <div class="flow">
+        <div class="flow-step"><div class="num">01</div><h3>导入候选</h3><p>按行业或地区导入，先落在待审核区。</p></div>
+        <div class="flow-step"><div class="num">02</div><h3>看分与理由</h3><p>把不值得跟进的先划掉，省时间。</p></div>
+        <div class="flow-step"><div class="num">03</div><h3>生成草稿</h3><p>按公司背景生成，再按需要改。</p></div>
+        <div class="flow-step"><div class="num">04</div><h3>审核后发送</h3><p>批准才发，发送记录留在台账。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>看一遍，比读十段说明快</h2>
+          <p>22 秒，真实鼠标操作，从候选池到发送记录。</p>
+        </div>
+        <button class="btn btn-ghost" type="button" data-play>播放</button>
+      </div>
+      <div class="video-frame" id="demoPlayer" role="button" tabindex="0" aria-label="播放产品演示">
+        <img src="assets/img/demo-poster.png" alt="DockJoy 待审核队列界面" />
+        <div class="play"><span>▶</span></div>
+        <div class="cap">22 秒演示 · 真实操作</div>
+        <video controls playsinline preload="none" poster="assets/img/demo-poster.png">
+          <source src="assets/video/demo.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--paper);border-top:1px solid var(--line)">
+    <div class="container">
+      <h2>和“全自动工具”的区别</h2>
+      <div class="grid-3" style="margin-top:22px">
+        <div class="pain"><h3>它们在比发得多</h3><p>批量群发、自动跟进，发错人也不心疼。</p></div>
+        <div class="pain"><h3>我们在比发得对</h3><p>先审核再发，宁可少发，不拿品牌试错。</p></div>
+        <div class="pain"><h3>数据是你的</h3><p>台账、联系人、发送记录都在你的租户里，可导出、可审计。</p></div>
+      </div>
+      <div class="pager" style="margin-top:36px">
+        <a href="index.html">← 回到首页</a>
+        <span>下一站：解决方案</span>
+        <a href="solutions.html">解决方案 →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <span>© 2026 DockJoy</span>
+    <div class="footer-links">
+      <a href="product.html">产品</a><a href="solutions.html">解决方案</a><a href="pricing.html">定价</a>
+      <a href="cases.html">试点记录</a><a href="about.html">关于</a><a href="privacy.html">隐私</a><a href="terms.html">条款</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js?v=20261116"></script>
+<script src="assets/js/site.js?v=20261116"></script>
+</body>
+</html>
+
+
+
+
+

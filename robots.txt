@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://xiaoke695-cloud.github.io/dockjoy-site/sitemap.xml
+
